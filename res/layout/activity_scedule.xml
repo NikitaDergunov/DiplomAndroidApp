@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SceduleActivity">
+
+    <TableLayout
+        android:id="@+id/sceduleTable"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow android:id="@+id/labelRow">
+
+            <TextView
+                android:id="@+id/timeSc"
+                android:layout_width="wrap_content"
+                android:text="Время" />
+
+            <TextView
+                android:id="@+id/subjectSc"
+                android:layout_width="wrap_content"
+                android:text="Предмет" />
+
+            <TextView
+                android:id="@+id/roomSc"
+                android:layout_width="wrap_content"
+                android:text="Аудитория" />
+
+            <TextView
+                android:id="@+id/typeSc"
+                android:layout_width="wrap_content"
+                android:text="Тип" />
+        </TableRow>
+
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
